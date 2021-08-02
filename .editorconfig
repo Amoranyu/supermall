@@ -1,0 +1,10 @@
+# 项目文本相关格式配置
+root = true # 表明是最顶层的配置文件
+
+[*]
+charset = utf-8
+indent_style = space # 缩进使用tab或者space
+indent_size = 2 # 缩进2字符
+end_of_line = lf  # 在最后换行
+insert_final_newline = true # 每开发完一个文件在最后要换行 是否使文件以一个空白行结尾
+trim_trailing_whitespace = true # 是否将行尾空格自动删除
